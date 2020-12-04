@@ -66,6 +66,7 @@ function Navbar() {
           {/* {button && <Button buttonStyle='btn--outline'>Localização</Button>} */}
         </div>
       </nav>
+      {button}
     </>
   );
 }
