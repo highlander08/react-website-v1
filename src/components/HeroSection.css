@@ -1,3 +1,82 @@
+.Dog{
+  display: block;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 100%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+    margin-left: 5px;
+}
+.Dog:hover{
+  background-color: #fff;
+  color: black;
+
+}
+.Cat{
+  display: block;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 100%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+    margin-left: 5px;
+}
+.Cat:hover{
+  background-color: #fff;
+  color: black;
+
+}
+.Bird{
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 100%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+    margin-left: 5px;
+}
+.btns {
+  display: block;
+  text-align: center;
+  margin: 2rem auto;
+  border-radius: 4px;
+  width: 100%;
+  text-decoration: none;
+  font-size: 1.5rem;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-out;
+  margin-left: 5px;
+}
+.btns:hover{
+  background-color: #fff;
+  color: black;
+}
+.Bird:hover{
+  background-color: #fff;
+  color: black;
+
+}
 video {
   object-fit: cover;
   width: 100%;
@@ -22,6 +101,13 @@ video {
   color: #fff;
   font-size: 100px;
   margin-top: -100px;
+  
+}
+.hero-container > h1:hover{
+  color: #ff9000;
+  transition: 0.2s ease-out;
+
+
 }
 
 .hero-container > p {
