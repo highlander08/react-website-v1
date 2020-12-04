@@ -1,12 +1,11 @@
 import React from 'react';
 import '../../App.css';
 import CardItem from '../CardItem';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Footer from '../Footer'
 
 
 export default function Bird() {
-  // return <h1 className='sign-up'>LIKE & SUBSCRIBE</h1>;
   return (
     <>
     <div className='cards'>

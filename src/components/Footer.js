@@ -16,9 +16,9 @@ function Footer() {
         </p>
         
       </section>
-      <div class='footer-links'>
+      <div className='footer-links'>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Sobre Nós</h2>
             
             <p>Vendemos Raçoes e acessorios de qualidade
@@ -26,12 +26,12 @@ function Footer() {
               saude para o seu filhote amado !
             </p>
           </div>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Endereço</h2>
             <p>Fortaleza - CE<br/> Planalto Ayrton Senna Rua palmeiras 1070</p>
             
           </div>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Contato</h2>
             <p> (85) 992315342 ✔ santosray62@gmaiil.com</p>
             
@@ -39,7 +39,7 @@ function Footer() {
         </div>
         <div className='footer-link-wrapper'>
          
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Rede Social</h2>
             <a href='https://www.instagram.com/'>Instagram</a>
             <a href='https://www.facebook.com/'>Facebook</a>
@@ -47,32 +47,32 @@ function Footer() {
           </div>
         </div>
       </div>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
+      <section className='social-media'>
+        <div className='social-media-wrap'>
+          <div className='footer-logo'>
             <Link to='/' className='social-logo'>
             <span>Loja 1</span>
 
               <img src={logo1} alt="Logo"></img>
             </Link>
           </div>
-          <small class='website-rights'>Loja 1 © 2020</small>
-          <div class='social-icons'>
+          <small className='website-rights'>Loja 1 © 2020</small>
+          <div className='social-icons'>
             <a href="https://www.facebook.com/"
-              class='social-icon-link facebook'
+              className='social-icon-link facebook'
               to='/'
-              target='_blank'
+              // target='_blank'
               aria-label='Facebook'
             >
-              <i class='fab fa-facebook-f' />
+              <i className='fab fa-facebook-f' />
             </a>
             <a href="https://www.instagram.com/"
-              class='social-icon-link instagram'
+              className='social-icon-link instagram'
               to='/'
-              target='_blank'
+              // target='_blank'
               aria-label='Instagram'
             >
-              <i class='fab fa-instagram' />
+              <i className='fab fa-instagram' />
             </a>
             
           </div>
