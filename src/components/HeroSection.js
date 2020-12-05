@@ -3,7 +3,6 @@ import '../App.css';
 // import { Button } from './Button';
 import './HeroSection.css';
 import { Link } from 'react-router-dom';
-// import CardItem from './CardItem'
 function HeroSection() {
   return (
     <div className="hero-container">
@@ -11,12 +10,7 @@ function HeroSection() {
       <h1>O MELHOR PET SHOP</h1>
       <p>Qual o seu filhote ?</p>
       <div className="hero-btns">
-      {/* <CardItem
-              src="images/birdimg.jpg"
-              text="Saúde e Conforto para seu pássaro"
-              label="Bird"
-              path="/Bird"
-            /> */}
+     
         <Link className="Cat"
           to="/Cat"
           // buttonStyle="btn--outline"

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/accessible-emoji */
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
@@ -5,7 +6,7 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className="cards">
-      <h1> Escolha o Seu filhote</h1>
+      <h1> 💜 Escolha o Seu Filhote</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
