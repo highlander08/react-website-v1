@@ -2,6 +2,7 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+// import { Link } from 'react-router-dom';
 
 function Cards() {
   return (
@@ -16,6 +17,7 @@ function Cards() {
               label="Bird"
               path="/Bird"
             />
+          
             <CardItem
               src="images/catimg.jpg"
               text="Saúde e Conforto para seu Gato"

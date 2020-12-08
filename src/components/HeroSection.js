@@ -34,7 +34,7 @@ function HeroSection() {
           // buttonStyle="btn--outline"
           // buttonSize="btn--large"
         >
-          Passaro
+          Pássaro
         </Link>
         <Link
           to="/products"

@@ -30,7 +30,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            <span>Loja 1</span>
+            <span>Loja </span>
             <img src={logo1} alt="logo" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
@@ -39,7 +39,7 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Inicio da Pagina
+                Página Inicial
               </Link>
             </li>
 
@@ -49,12 +49,12 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Mais Produtos
+                + Produtos
               </Link>
             </li>
 
             <li>
-              <a
+              <a 
                 href="https://www.google.com.br/maps/place/R.+Palmeiras,+1070+-+Planalto+Ayrton+Senna,+Fortaleza+-+CE,+60766-410/@-3.838182,-38.5763793,15z/data=!4m5!3m4!1s0x7c751f78c980ed5:0xf6ebeb487a5a8421!8m2!3d-3.838182!4d-38.567646"
                 className="nav-links-mobil"
                 // onClick={closeMobileMenu}
